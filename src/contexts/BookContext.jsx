@@ -1,5 +1,4 @@
 import React from "react";
-import bookImage from "../assets/images/books/anthony-giddens-sociology-6th.png"
 export const BookContext = React.createContext();
 
 class BookContextProvider extends React.Component{
