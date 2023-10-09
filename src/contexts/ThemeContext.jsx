@@ -6,8 +6,8 @@ class ThemeContextProvider extends React.Component{
 
     state = {
         isDarkTheme: true,
-        dark: {bg: "#222529", txt:"#FFFFFF"},
-        light: {bg: "#F8F9FA", txt: "#222529"}
+        dark: {bg: "bg-slate-800", txt:"text-white"},
+        light: {bg: "bg-slate-200", txt: "text-black"}
     }
 
     changeTheme = () => {

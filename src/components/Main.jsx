@@ -12,7 +12,7 @@ class Main extends React.Component{
                 const theme = isDarkTheme ? dark : light;
 
                 return(
-                    <main id="main-content" style={{background: theme.bg, color:theme.txt}}>
+                    <main id="main-content" className={`${theme.bg} ${theme.txt}`}>
                         <BookContextProvider>
                             <BookList/>
                         </BookContextProvider>
